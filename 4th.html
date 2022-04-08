@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+Nhap so
+<input type="text" id="nhapSo"><br>
+He so
+<select id="heso">
+    <option value=5>5</option>
+    <option value=6>6</option>
+    <option value=7>7</option>
+    <option value=8>8</option>
+</select>
+<br>
+<input onclick="Mul()" type="submit" value="Show">
+</body>
+</html>
+<script>
+    function Mul(){
+        let a = document.getElementById("nhapSo").value * document.getElementById("heso").value;
+        alert(a)
+    }
+</script>
